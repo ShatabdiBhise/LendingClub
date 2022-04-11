@@ -15404,7 +15404,7 @@ dtype: object</pre>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="III)-Predicting-the-interest-rate">III) Predicting the interest rate<a class="anchor-link" href="#III)-Predicting-the-interest-rate">&#182;</a></h2><p>I experimented on various models for predicting the interest rate for an individual. The models tried on were Linear Regression, Lasso Regression, Decision Tree, Random Forest, kNN, SVM, and Neural Nets. (Neural Nets is in the google colab link as my Jupyter was not supporting keras).</p>
-<p>Among all the models studies, Random Forest (0.18 RMSE), Decision Tree (0.24 RMSE) and Neural Nets (0.7 RMSE) seem to work the best.</p>
+<p>Among all the models studied, Random Forest (0.18 RMSE), Decision Tree (0.24 RMSE) and Neural Nets (0.7 RMSE) seem to work the best.</p>
 <p>Preprocessing - There were many columns with the Nan values. I had to first convert these values to 0. There was also categorical data present in the dataset which had to be encoded into a numerical value so that the dataset could work on maximum numbers of algorithms without any problem. Feature selection was then done to select the best features that would enhance the model. Root Mean Squared Error is the evaluation metric used.</p>
 <p>The approach starts with the basic model with a high RMSE and ends with the Random Forest model (0.18 RMSE) which works best for the dataset</p>
 
