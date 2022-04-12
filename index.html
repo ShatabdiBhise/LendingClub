@@ -15406,7 +15406,7 @@ dtype: object</pre>
 <h2 id="III)-Predicting-the-interest-rate">III) Predicting the interest rate<a class="anchor-link" href="#III)-Predicting-the-interest-rate">&#182;</a></h2><p>I experimented on various models for predicting the interest rate for an individual. The models tried on were Linear Regression, Lasso Regression, Decision Tree, Random Forest, kNN, SVM, and Neural Nets. (Neural Nets is in the google colab link as my Jupyter was not supporting keras).</p>
 <p>Among all the models studied, Random Forest, Decision Tree, and Neural Nets seem to work the best.</p>
 <p>Preprocessing - There were many columns with the Nan values. I had to first convert these values to 0. There was also categorical data present in the dataset which had to be encoded into a numerical value so that the dataset could work on maximum numbers of algorithms without any problem. Feature selection was then done to select the best features that would enhance the model. Root Mean Squared Error is the evaluation metric used.</p>
-<p>The approach starts with the basic model with a high RMSE and ends with the Random Forest model which works best for the dataset</p>
+<p>The approach starts with the basic model with a high RMSE and ends with the Random Forest (0.14 RMSE) model which works best for the dataset</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
